@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quynh Le</title><link>https://quynhtle.github.io/</link><atom:link href="https://quynhtle.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Quynh Le</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><image><url>https://quynhtle.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>Quynh Le</title><link>https://quynhtle.github.io/</link></image><item><title>Writing technical content in Academic</title><link>https://quynhtle.github.io/posts/testpost/</link><pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate><guid>https://quynhtle.github.io/posts/testpost/</guid><description>&lt;p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quynh Le</title><link>https://quynhtle.github.io/</link><atom:link href="https://quynhtle.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Quynh Le</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><image><url>https://quynhtle.github.io/media/icon_huf47aff6293f4032c2c3d74bce0ac8e13_50378_512x512_fill_lanczos_center_3.png</url><title>Quynh Le</title><link>https://quynhtle.github.io/</link></image><item><title>Writing technical content in Academic</title><link>https://quynhtle.github.io/posts/testpost/</link><pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate><guid>https://quynhtle.github.io/posts/testpost/</guid><description>&lt;p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p>
 &lt;p>&lt;strong>Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong>&lt;/p>
 &lt;p>On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p>
 &lt;h2 id="examples">Examples&lt;/h2>
@@ -19,7 +19,7 @@ data.head()
 &lt;p>Academic supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> chart format.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-693754182" class="chart">&lt;/div>
+&lt;div id="chart-186342957" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -28,7 +28,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-693754182', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-186342957', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
